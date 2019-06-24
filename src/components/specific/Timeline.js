@@ -4,8 +4,8 @@ import './Timeline.css';
 import HorizontalTimeline from 'react-horizontal-timeline'
 
 const VALUES = [ 'May-2011', 'Dec-2011', 'Apr-2012', 'Dec-2012', 'Mar-2018'];
-const e4 = getComputedStyle(document.documentElement).getPropertyValue('--electric-blue-4').slice(1)
-const e1 = getComputedStyle(document.documentElement).getPropertyValue('--electric-blue-1').slice(1)
+const e4 = getComputedStyle(document.documentElement).getPropertyValue('--electric-blue-4').slice(-7)
+const e1 = getComputedStyle(document.documentElement).getPropertyValue('--electric-blue-1').slice(-7)
 
 
 class Timeline extends Component {
