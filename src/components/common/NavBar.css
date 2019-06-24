@@ -1,0 +1,14 @@
+.Navigation {
+  background-color: var(--electric-blue-1);
+  border-bottom: 2px solid rgba(0,0,0,.125)
+}
+
+.active{
+  color:#00bc8c;
+}
+
+.NavBar-logo {
+  height: 8vh;
+  object-fit: none;
+  width: fit-content
+}

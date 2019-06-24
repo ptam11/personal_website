@@ -1,3 +1,16 @@
+:root {
+  /* Color Theme Swatches in Hex */
+  --electric-blue-1: #011126;
+  --electric-blue-2: #0367A6;
+  --electric-blue-3: #024873;
+  --electric-blue-4: #049DD9;
+  --electric-blue-5: #05C7F2;
+}
+
+body {
+  background-color: var(--electric-blue-1)
+}
+
 .App {
   text-align: center;
 }
