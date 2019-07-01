@@ -1,20 +1,22 @@
-.Timeline-container {
+.Timeline {
   color: white;
   font-size: 1.5vh;
+  height: 70vh;
+  width: 100%;
 }
 .Timeline-line {
   width: 70%;
-  height: 10vh; 
+  height: 30%; 
   margin: 0 auto; 
 }
 .Timeline-des {
-  height: 10vh;
+  height: 30%;
   width: 40%;
   margin: 0 auto;
 }
 .card-img {
   opacity: 0.4;
-  height: 30vh;
+  height: 30%;
   object-fit: fit;
 }
 

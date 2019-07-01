@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
-import NavBar from './common/NavBar';
-import Timeline from './specific/Timeline';
+import Home from './specific/Home';
 
 
 class Router extends Component {
  render() {
    return (
      <BrowserRouter>
-     <NavBar/>
-     <Timeline/>
+     
+     <Home/>
       <Switch>
         
       </Switch>

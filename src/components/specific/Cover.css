@@ -1,0 +1,24 @@
+.Cover {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../../img/hk.jpg');
+  background-size: cover ;
+  opacity: 0.8;
+}
+.Cover-content {
+  height: 100%;
+  color: var(--yellow);
+}
+.Cover-text {
+  display: inline-block;
+  padding: 2%;
+  height: 30%;
+}
+.Cover-text-bg {
+  background-color: var(--electric-blue-1);
+  opacity: 0.5;
+  height: 100%;
+  top: -100%;
+  position: relative;
+  z-index: -1;
+}

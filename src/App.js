@@ -5,7 +5,7 @@ import Router from './components/Router'
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App ml-0 mr-0 p-0">
           <Router />
       </div>
     );

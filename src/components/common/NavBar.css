@@ -1,14 +1,17 @@
-.Navigation {
-  background-color: var(--electric-blue-1);
-  border-bottom: 2px solid rgba(0,0,0,.125)
+.NavBar {
+  height: 10vh;
+  text-decoration: none;
+  background-color: transparent;
 }
 
 .active{
   color:#00bc8c;
 }
 
-.NavBar-logo {
-  height: 8vh;
-  object-fit: none;
-  width: fit-content
+.nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  height: 100%
 }

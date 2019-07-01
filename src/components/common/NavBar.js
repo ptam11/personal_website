@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './NavBar.css';
-import logo from '../../logo.jpeg'
+import logo from '../../img/logo_word.png'
 
 class NavBar extends Component {
 	render() {
 		return (
-			<nav className="Navigation navbar navbar-expand-sm">
+			<nav className="NavBar navbar navbar-expand-sm">
 				<NavLink className="navbar-brand" activeClassName="active" exact to="#">
 					<img src={logo} className="NavBar-logo img-fluid" alt="logo"></img>
 				</NavLink>

@@ -5,12 +5,29 @@
   --electric-blue-3: #024873;
   --electric-blue-4: #049DD9;
   --electric-blue-5: #05C7F2;
+  --yellow: #ECC209;
 }
 
 body {
-  background-color: var(--electric-blue-1)
+  background-color: var(--electric-blue-1);
+  color: white;
 }
 
+.section-header {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.section-header-title {
+  color: white
+} 
+.section-header-underline {
+  color: var(--yellow)
+} 
+
+b {
+  color: var(--electric-blue-5);
+  font-size: 1.5em;
+}
 .App {
   text-align: center;
 }
