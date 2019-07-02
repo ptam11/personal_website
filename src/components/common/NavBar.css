@@ -1,11 +1,11 @@
 .NavBar {
   height: 10vh;
   text-decoration: none;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 .active{
-  color:#00bc8c;
+  color: var(--yellow);
 }
 
 .nav-link {
@@ -13,5 +13,11 @@
 }
 
 .navbar-brand {
-  height: 100%
+  height: 10vh;
+  z-index: 1;
+}
+
+.NavBar-logo {
+  color: var(--electric-blue-5);
+  height: 100%;
 }

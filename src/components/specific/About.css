@@ -1,6 +1,6 @@
 .About {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover ;
   opacity: 0.8;
 }
@@ -19,7 +19,8 @@
 }
 
 .About-pic {
-  height: 100%;
+  height: 20rem;
+  width: 20rem;
   background-image: url('../../img/rithm11-81.jpg');
   background-size: 100%;
   background-position: center;

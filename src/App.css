@@ -11,6 +11,7 @@
 body {
   background-color: var(--electric-blue-1);
   color: white;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .section-header {
