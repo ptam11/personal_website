@@ -12,8 +12,8 @@ class Cover extends Component {
 						<div className='Cover-text-bg'></div>
 						<div className='Cover-text-words'>
 							<h1>PARCO TAM</h1>
-							<h5>HONG KONG <span className='dot'>&#183;</span> CANADA  </h5>
-							<h5>SOFTWARE ENGINEER <span className='dot'>&#183;</span> DATA ANALYST</h5>
+							<h5>HONG KONG <b><span className='dot'>&#183;</span></b> CANADA  </h5>
+							<h5>SOFTWARE ENGINEER <b><span className='dot'>&#183;</span></b> DATA ANALYST</h5>
 						</div>
 					</div>
 				</div>

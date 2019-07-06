@@ -25,6 +25,9 @@ body {
   border-bottom: 0.2rem solid var(--yellow);
 } 
 
+.dot {
+  font-size: 2rem;
+}
 b {
   color: var(--electric-blue-5);
   font-size: 1.5em;
