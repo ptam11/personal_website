@@ -1,36 +1,58 @@
+@media (max-width: 575.9px) {
+  .Footer {
+    width: 15vw; 
+    font-size: 7vw;
+  }
+}
+
+@media (min-width: 576px) {
+  .Footer {
+    width: 7vw; 
+    font-size: 4vw;
+  }
+}
+
 .Footer {
   text-decoration: none;
-  opacity: 0.8; 
+  opacity: 0.8;
+  background-color: black;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0.5rem;
 }
 
 .active{
   color: var(--yellow);
-}
-.nav-link {
-  width: 4rem;
 } 
+
+.nav-link {
+  margin-left: 0;
+  padding:0;
+  width: 100%;
+} 
+.Footer-link {
+  font-size: 80%;
+}
+.Footer-link:hover {
+  font-size: 120%;
+}
 
 .Footer-link {
   color: white;
-  font-size: 2rem;
+
   margin: auto;
   transition: font-size 0.1s;
 }
+
 .Footer-github:hover {
   color: #6e5494;
 }
-
 .Footer-linkedin:hover {
   color: #0077b5;
 }
-
 .Footer-contact:hover {
   color: #D44638;
 }
-
 .Footer-resume:hover {
   color: #008000;
-}
-.Footer-link:hover {
-  font-size: 4rem;
 }

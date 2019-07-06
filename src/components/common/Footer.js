@@ -8,7 +8,7 @@ class Footer extends Component {
 	render() {
 		return (
 			<nav class="navbar fixed-bottom navbar-light flex-column align-content-start Footer">
-				<a className="nav-link" href="https://github.com/ptam11">
+				<a className="nav-link" href="https://www.linkedin.com/in/parcotam/">
 				<FontAwesomeIcon className='Footer-link Footer-linkedin' icon={faLinkedin} />
 				</a>
 				<a className="nav-link" href="https://github.com/ptam11">

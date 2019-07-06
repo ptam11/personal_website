@@ -21,6 +21,7 @@ class Timeline extends Component {
             indexClick={(index) => {
               this.setState({ value: index, previous: this.state.value });
             }}
+            // getLabel={ date.toDateString().substring(4) }
             values={ VALUES } 
 						styles={ {background: e1, foreground: e4, outline: '#ffffff'} }/>
         </div>
