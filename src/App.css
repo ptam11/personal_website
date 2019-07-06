@@ -19,10 +19,10 @@ body {
   margin-bottom: 5%;
 }
 .section-header-title {
-  color: white
-} 
-.section-header-underline {
-  color: var(--yellow)
+  display: inline-block;
+  color: white;
+  padding-bottom: 2rem;
+  border-bottom: 0.2rem solid var(--yellow);
 } 
 
 b {

@@ -1,24 +1,36 @@
 .Footer {
-  height: 5vh;
   text-decoration: none;
-  /* background-color: transparent; */
+  opacity: 0.8; 
 }
 
 .active{
   color: var(--yellow);
 }
-
 .nav-link {
+  width: 4rem;
+} 
+
+.Footer-link {
   color: white;
+  font-size: 2rem;
+  margin: auto;
+  transition: font-size 0.1s;
 }
-
-
-
-.Footer-github :hover {
+.Footer-github:hover {
   color: #6e5494;
-  width: 300px;
 }
 
-.Footer-linkedin :hover {
+.Footer-linkedin:hover {
   color: #0077b5;
+}
+
+.Footer-contact:hover {
+  color: #D44638;
+}
+
+.Footer-resume:hover {
+  color: #008000;
+}
+.Footer-link:hover {
+  font-size: 4rem;
 }

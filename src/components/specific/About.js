@@ -15,9 +15,18 @@ class About extends Component {
 						</div>
 						<div className='About-col col-12 text-left'>
 							
-							<p><b>MOTIVATION:</b> GREATER EFFIENCY, IMPACT</p>
-							<p><b>VALUES:</b> TEAMWORK, GENUINE, </p>
-							<p><b>QUOTE:</b> "THE WORLD IS ONE BIG DATA PROBLEM" </p>
+							<div>
+								<b>MOTIVATION:</b>  
+								<p>GREATER EFFIENCY, IMPACT </p>
+							</div>
+							<div>
+								<b>VALUES:</b>  
+								<p>TEAMWORK, GENUINENESS </p>
+							</div>
+							<div>
+								<b>QUOTE:</b>  
+								<p>"THE WORLD IS ONE BIG DATA PROBLEM" </p>
+							</div>
 							<div>
 								<b>DREAM</b>  
 								<p>Work for a company that improves the way we live intelligently through technology. </p>

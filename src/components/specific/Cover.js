@@ -9,11 +9,12 @@ class Cover extends Component {
 				<NavBar/>
 				<div className='Cover-content d-flex justify-content-center align-items-center'>
 					<div className='Cover-text border-rounded'>
-						<h1>PARCO TAM</h1>
-						<h3>HONG KONG / CANADA  </h3>
-						<h3>SOFTWARE ENGINEER X DATA ANALYST</h3>
 						<div className='Cover-text-bg'></div>
-
+						<div className='Cover-text-words'>
+							<h1>PARCO TAM</h1>
+							<h5>HONG KONG <span className='dot'>&#183;</span> CANADA  </h5>
+							<h5>SOFTWARE ENGINEER <span className='dot'>&#183;</span> DATA ANALYST</h5>
+						</div>
 					</div>
 				</div>
       </div>
