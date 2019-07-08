@@ -15,7 +15,7 @@ body {
 }
 
 .section-header {
-  margin-top: 5%;
+  margin-top: 20%;
   margin-bottom: 5%;
 }
 .section-header-title {
@@ -26,7 +26,7 @@ body {
 } 
 
 .dot {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 b {
   color: var(--electric-blue-5);

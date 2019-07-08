@@ -1,0 +1,8 @@
+.ProjectDetail {
+  height: 100vh;
+  width: 100vw;
+}
+
+.ProjectDetail-tech-list {
+  font-size: 1.1rem;
+}
