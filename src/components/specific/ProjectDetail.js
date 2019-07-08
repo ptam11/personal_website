@@ -9,7 +9,8 @@ import { Carousel } from 'react-responsive-carousel';
 
 class ProjectDetail extends Component {
 	render() {
-		const { title, carouselListArr, techListArr, desListArr, subListObj } = this.props;
+		const { projectObj } =  this.props;
+		const { title, carouselListArr, techListArr, desListArr, subListObj } = projectObj;
 		const carouselHtmlList = (carouselListArr.map((page, ind) => {
 			return (
 				<div key={ind}>

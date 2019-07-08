@@ -39,4 +39,6 @@ const subListObj = {
 		]
 	}
 
-export {title, techListArr, desListArr, carouselListArr, subListObj};
+const jumpOffCampus = {title, techListArr, desListArr, carouselListArr, subListObj};
+
+export default jumpOffCampus;

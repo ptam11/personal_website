@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './ProjectOverview.css';
 import SectionHeader from './SectionHeader'
 import ProjectDetail from './ProjectDetail';
-import {title, techListArr, desListArr, carouselListArr, subListObj} from './projectInfo/jumpOffCampus'
+import jumpOffCampus from './projectInfo/jumpOffCampus'
+import jobly from './projectInfo/jobly'
 
 
 class ProjectOverview extends Component {
@@ -10,8 +11,8 @@ class ProjectOverview extends Component {
 		return (
 			<div className='ProjectOverview d-flex flex-column justify-content-spread align-items-spread'>
 				<SectionHeader title='P R O J E C T S'/>
-				< ProjectDetail title={title} techListArr={techListArr} desListArr={desListArr} carouselListArr={carouselListArr} subListObj={subListObj}/>
-				<div>{subListObj[title]}</div>
+				< ProjectDetail projectObj={jumpOffCampus}/>
+				< ProjectDetail projectObj={jobly}/>
 				{/* <div className='ProjectOverview-container container'>
 					<div className='ProjectOverview-row row'>
 						<div className='ProjectOverview-col col-lg-6 mb-5' align="center">
