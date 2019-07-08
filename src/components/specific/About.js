@@ -7,8 +7,9 @@ class About extends Component {
 	render() {
 		return (
 			<div className='About d-flex flex-column justify-content-spread align-items-spread'>
-				<SectionHeader title='A B O U T' underline='_________' />
+				<div className='bgOpaque'> </div>
 				<div className='About-container container'>
+					<SectionHeader title='A B O U T' />
 					<div className='About-row row'>
 						<div className='About-col col-12 '>
 							<div className='About-pic m-auto'/>
@@ -28,7 +29,7 @@ class About extends Component {
 								<p>"THE WORLD IS ONE BIG DATA PROBLEM" </p>
 							</div>
 							<div>
-								<b>DREAM</b>  
+								<b>DREAM:</b>  
 								<p>Work for a company that improves the way we live intelligently through technology. </p>
 							</div>
 							<div>
