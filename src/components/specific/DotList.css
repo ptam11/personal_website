@@ -2,5 +2,6 @@
   margin-top: 0;
   padding-bottom: 2rem;
   margin-bottom: 1rem;
-  border-bottom: 0.01rem solid var(--electric-blue-4);
+  /* border-bottom: 0.01rem solid var(--electric-blue-4); */
+  border-bottom: 0.01rem solid #FF4858
 }

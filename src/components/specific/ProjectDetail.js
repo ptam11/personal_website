@@ -14,7 +14,7 @@ class ProjectDetail extends Component {
 		const carouselHtmlList = (carouselListArr.map((page, ind) => {
 			return (
 				<div key={ind}>
-					<p className="legend" style={{opacity: 0.7, fontSize: "3vh"}}>{page.des}</p>
+					<p className="legend" style={{opacity: 0.7, fontSize: "2.5vh"}}>{page.des}</p>
 					<img src={page.src} alt={page.src}/>
 					
 				</div>
@@ -25,7 +25,8 @@ class ProjectDetail extends Component {
 				<div className="container">
 					<div className="ProjectDetail-individual row">
 						<div className="col-12"> 
-							<h3><b>{title}</b></h3>
+							{/* <h3><b className="ProjectDetail-proj-title">{title}</b></h3> */}
+							<h3 className="ProjectDetail-proj-title">{title}</h3>
 							<div className="ProjectDetail-tech-list"><DotList listArr={techListArr} /></div>
 							<br/>
 							<DescriptionList desListArr={desListArr}/>
