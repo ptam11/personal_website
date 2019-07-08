@@ -25,18 +25,17 @@ class ProjectDetail extends Component {
 				<div className="container">
 					<div className="ProjectDetail-individual row">
 						<div className="col-12"> 
-							{/* <h3><b className="ProjectDetail-proj-title">{title}</b></h3> */}
 							<h3 className="ProjectDetail-proj-title">{title}</h3>
 							<div className="ProjectDetail-tech-list"><DotList listArr={techListArr} /></div>
 							<br/>
+							<div  className='ProjectDetail-carousel col-12 m-auto'>
+								<Carousel autoPlay={true} infiniteLoop={true} centerMode={false} width="100%" interval={3500}>
+										{carouselHtmlList}
+								</Carousel>
+							</div>
 							<DescriptionList desListArr={desListArr}/>
 							<SubList title={subListObj.title} subListArr={subListObj.subListArr}/>
 							<br/>
-						</div>
-						<div  className='ProjectDetail-carousel col-12 m-auto'>
-							<Carousel autoPlay={true} infiniteLoop={true} centerMode={false} width="100%" interval={3800}>
-									{carouselHtmlList}
-							</Carousel>
 						</div>
 					</div>
 				</div>

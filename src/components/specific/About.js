@@ -18,15 +18,15 @@ class About extends Component {
 							
 							<div>
 								<b>MOTIVATION:</b>  
-								<p>GREATER EFFIENCY, IMPACT </p>
+								<p>Efficiency, Impact </p>
 							</div>
 							<div>
 								<b>VALUES:</b>  
-								<p>TEAMWORK, GENUINENESS </p>
+								<p>Genuineness, Continual Growth, Teamwork </p>
 							</div>
 							<div>
 								<b>QUOTE:</b>  
-								<p>"THE WORLD IS ONE BIG DATA PROBLEM" </p>
+								<p>"The world is one big data problem" </p>
 							</div>
 							<div>
 								<b>DREAM:</b>  
@@ -37,7 +37,7 @@ class About extends Component {
 								<p>I loved my job at Bloomberg. Through the 7 years, I applied what I learnt from school, worked with product managers, R&D and sales to improve the product and defended essential financial data that impacted millions of clients. </p>
 							</div>
 							<div>
-								<b>LESSON LEARNT:</b>  
+								<b>LESSON LEARNED:</b>  
 								<p>Joined the company 7 years ago, thinking data was about manually punching in numbers. Left the company with fascination over the massive database architecture and network of data flows behind the scenes  </p>
 							</div>
 							<div>

@@ -4,6 +4,7 @@ import SectionHeader from './SectionHeader'
 import ProjectDetail from './ProjectDetail';
 import jumpOffCampus from './projectInfo/jumpOffCampus'
 import jobly from './projectInfo/jobly'
+import gaDataScience from './projectInfo/gaDataScience'
 
 
 class ProjectOverview extends Component {
@@ -13,6 +14,7 @@ class ProjectOverview extends Component {
 				<SectionHeader title='P R O J E C T S'/>
 				< ProjectDetail projectObj={jumpOffCampus}/>
 				< ProjectDetail projectObj={jobly}/>
+				< ProjectDetail projectObj={gaDataScience}/>
 				{/* <div className='ProjectOverview-container container'>
 					<div className='ProjectOverview-row row'>
 						<div className='ProjectOverview-col col-lg-6 mb-5' align="center">
