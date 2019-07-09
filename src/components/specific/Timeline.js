@@ -48,7 +48,8 @@ class Timeline extends Component {
 							<p className="card-text">{date}</p>
 							<p className="card-text">{text}</p>
 						</div>
-						<img className="card-img-bottom img-fluid" src={src} alt="Card image"/>
+            {/* <img className="card-img-bottom img-fluid" src={src} alt="Card image"/> */}
+            <div className="card-img-bottom img-fluid" style={{backgroundImage: 'url('+ src + ')'}} alt="Card image"/>
 					</div> 
         </div>
       </div>
