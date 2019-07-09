@@ -9,14 +9,14 @@ import sanFrancisco from '../../../img/timeline/sanFrancisco.jpg'
 import vendorTrip from '../../../img/timeline/vendorTrip.jpg'
 
 const timelineInfo = [
-  { date: 'May-2011', src: babson2, title: "Graduate from Undergrad", text: "Cum Laude"},
-  { date: 'Dec-2011', src: babson, title: "Graduate from Grad", text: ""},
-  { date: 'Apr-2012', src: bloomberg, title: "Joined Bloomberg", text: "Data Analyst"},
-  { date: 'Nov-2014', src: vendorTrip, title: "Began Project Manager Position", text: "Data Analyst"},
-  { date: 'Apr-2015', src: cfa, title: "Qualified CFA", text: ""},
-  { date: 'Jan-2017', src: clientSeminar, title: "Coordinated APAC Sales Campaign", text: ""},
-  { date: 'Dec-2017', src: generalAssembly1, title: "Finished Data Science Course", text: ""},
-  { date: 'Mar-2019', src: sanFrancisco, title: "Began Full Time Immersive Course", text: ""},
+  { date: 'May-2011', src: babson2, title: "Bachelors Degree @Babson College", text: "Concentration: Computational Finance & Accounting Cum Laude"},
+  { date: 'Dec-2011', src: babson, title: "Masters Degree @Babson College", text: "Master of Science in Accounting"},
+  { date: 'Apr-2012', src: bloomberg, title: "Joined @Bloomberg in HK", text: "Equity Data Analyst"},
+  { date: 'Nov-2014', src: vendorTrip, title: "APAC Project Manager", text: "Data Coverage Expansion for Normalized Data"},
+  { date: 'Apr-2016', src: cfa, title: "Qualified CFA", text: "4 Year Related Working Experience"},
+  { date: 'Jan-2017', src: clientSeminar, title: "Coordinated APAC Sales Campaign", text: "Hosted Client Seminars with Sales Team"},
+  { date: 'Dec-2017', src: generalAssembly1, title: "General Assembly Data Science Course", text: "Sponsored by Bloomberg"},
+  { date: 'Mar-2019', src: sanFrancisco, title: "Began Full Time Immersive Course @Rithm School", text: "Moved to San Francisco"},
 ];
 
 

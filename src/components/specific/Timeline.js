@@ -45,7 +45,6 @@ class Timeline extends Component {
 					<div className="card  text-white">
 						<div className="card-body">
 							<h5 className="card-title">{title}</h5>
-							<p className="card-text">{date}</p>
 							<p className="card-text">{text}</p>
 						</div>
             {/* <img className="card-img-bottom img-fluid" src={src} alt="Card image"/> */}
