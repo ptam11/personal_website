@@ -13,10 +13,10 @@ class Home extends Component {
 		return (
 			<div className='Home ml-0 mr-0 p-0'>
         <Cover />
-				<About />
+				<About className="mb-5"/>
 				<Timeline />
 				<ProjectOverview />
-				<Contact />
+				<Contact className="mb-5"/>
 				<Footer />
       </div>
 		);

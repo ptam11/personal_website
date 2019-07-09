@@ -6,19 +6,11 @@
   background-position: center;
 }
 @media (max-width: 575.9px) {
-  .Cover-text {
-    height: 20rem;
-    width: 30rem;
-  }
   .Cover-text-words h1{
     font-size: 4rem;
   }
 }
 @media (min-width: 576px) {
-  .Cover-text {
-    height: 40rem;
-    width: 60rem;
-  }
   .Cover-text-words h1{
     font-size: 8rem;
   }

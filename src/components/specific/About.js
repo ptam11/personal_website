@@ -6,7 +6,7 @@ import SectionHeader from './SectionHeader'
 class About extends Component {
 	render() {
 		return (
-			<div className='About d-flex flex-column justify-content-spread align-items-spread' id="about">
+			<div className='About d-flex flex-column justify-content-spread align-items-spread mb-5' id="about">
 				<div className='bgOpaque'> </div>
 				<div className='About-container container'>
 					<SectionHeader title='A B O U T' />
