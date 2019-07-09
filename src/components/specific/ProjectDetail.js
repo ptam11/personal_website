@@ -9,7 +9,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 class ProjectDetail extends Component {
 	render() {
-		const { projectObj } =  this.props;
+		const { projectObj, id } =  this.props;
 		const { title, carouselListArr, techListArr, desListArr, subListObj } = projectObj;
 		const carouselHtmlList = (carouselListArr.map((page, ind) => {
 			return (
@@ -21,7 +21,7 @@ class ProjectDetail extends Component {
 			)
 		}))
 		return (
-			<div className='ProjectDetail d-flex justify-content-spread align-items-spread'>
+			<div className='ProjectDetail d-flex justify-content-spread align-items-spread' id={id}>
 				<div className="container">
 					<div className="ProjectDetail-individual row">
 						<div className="col-12"> 

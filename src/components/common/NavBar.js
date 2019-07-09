@@ -7,28 +7,40 @@ class NavBar extends Component {
 	render() {
 		return (
 			<nav className="NavBar navbar navbar-expand-sm">
-				<NavLink className="navbar-brand" activeClassName="active" exact to="#">
-					<img src={logo} className="NavBar-logo img-fluid" alt="logo"></img>
-				</NavLink>
+				<img src={logo} className="NavBar-logo img-fluid navbar-brand" alt="logo"></img>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     			<span class="navbar-toggler-icon"></span>
   			</button>
-				<div className="collapse navbar-collapse" id="navbarText">
+				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul className="navbar-nav ml-auto flex-row">
 						<li className="nav-item">
-							<NavLink className="nav-link" activeClassName="active" exact to="#">
-								Timeline
-							</NavLink>
+							<a className="nav-link" href="#about">
+								ABOUT ME
+							</a>
 						</li>
+						<li><b>|</b></li>
 						<li className="nav-item">
-							<NavLink className="nav-link" activeClassName="active" exact to="#">
-								About Me
-							</NavLink>
+							<a className="nav-link" href="#timeline">
+								THE JOURNEY
+							</a>
 						</li>	
+						<li><b>|</b></li>
+						<li class="nav-item dropdown">
+        			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          			PROJECTS
+        			</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#jumpOffCampus">JumpOffCampus Inc.</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#jobly">Jobly (LinkedIn)</a>
+								<a class="dropdown-item" href="#gaDataScience">HK IPO Data Science</a>
+							</div>
+						</li>
+						<li><b>|</b></li>
 						<li className="nav-item">
-							<NavLink className="nav-link" activeClassName="active" exact to="#">
-								Projects
-							</NavLink>
+							<a className="nav-link" href="#contact">
+								CONTACT ME
+							</a>
 						</li>
 					</ul>
 				</div>

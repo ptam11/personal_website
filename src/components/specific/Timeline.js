@@ -28,7 +28,7 @@ class Timeline extends Component {
   render() {
     const {date, src, title, text} = timelineInfo[this.state.value]
     return (
-      <div className='Timeline'>
+      <div className='Timeline' id="timeline">
         {/* Bounding box for the Timeline */}
         <SectionHeader title='J O U R N E Y' />
         <div className='Timeline-line'>

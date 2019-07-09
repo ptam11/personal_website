@@ -4,6 +4,7 @@ import Cover from './Cover'
 import About from './About'
 import Timeline from './Timeline'
 import ProjectOverview from './ProjectOverview';
+import Contact from './Contact';
 import Footer from '../common/Footer';
 
 
@@ -15,6 +16,7 @@ class Home extends Component {
 				<About />
 				<Timeline />
 				<ProjectOverview />
+				<Contact />
 				<Footer />
       </div>
 		);

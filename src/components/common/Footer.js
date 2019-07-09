@@ -17,7 +17,7 @@ class Footer extends Component {
 				<a className="nav-link" href="https://drive.google.com/file/d/1A8dEHOPYnCbmcXM9XE-O5AGQ3w5X8ifn/view?usp=sharing" >
 					<FontAwesomeIcon className='Footer-link Footer-resume' icon={faFile} /> 
 				</a>
-				<a className="nav-link" href="https://github.com/ptam11">
+				<a className="nav-link" href="#contact">
 					<FontAwesomeIcon className='Footer-link Footer-contact' icon={faAddressCard} /> 
 				</a>
 			</nav>

@@ -1,0 +1,44 @@
+.About {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('../../img/basketball.jpg');
+  background-size: cover ;
+  background-position: center;
+  position: relative;
+  /* filter: opacity(0.4); */
+}
+
+.bgOpaque {
+  position: absolute;
+  opacity: 0.8;
+  height:100%;
+  width: 100%;
+  background-color: var(--electric-blue-1)
+}
+
+.About-container {
+  height: 40%;
+  width: 100%;
+  position: relative;
+  /* z-index: 1; */
+  /* background-color: var(--electric-blue-1) */
+}
+
+.About-row {
+  height: 100%;
+}
+
+.About-col {
+  height: 100%;
+}
+
+.About-pic {
+  height: 20rem;
+  width: 20rem;
+  background-image: url('../../img/rithm11-81.jpg');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0.3rem solid white;
+  border-radius: 100%;
+}
