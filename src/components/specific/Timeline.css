@@ -22,8 +22,8 @@
 .card-body {
 }
 .card-img-bottom {
-  object-fit: cover;
-  height: 30vh;
+  object-fit: scale-down;
+  height: 50vh;
   width: 100%;
   border-radius: 0.5rem;
   margin: auto;

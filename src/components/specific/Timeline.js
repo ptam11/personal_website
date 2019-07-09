@@ -30,7 +30,7 @@ class Timeline extends Component {
     return (
       <div className='Timeline'>
         {/* Bounding box for the Timeline */}
-        <SectionHeader title='H I S T O R Y' />
+        <SectionHeader title='J O U R N E Y' />
         <div className='Timeline-line'>
           <HorizontalTimeline
             index={this.state.value}
@@ -44,7 +44,7 @@ class Timeline extends Component {
         <div className='Timeline-des text-center'>
 					<div className="card  text-white">
 						<div className="card-body">
-							<h4 className="card-title">{title}</h4>
+							<h5 className="card-title">{title}</h5>
 							<p className="card-text">{date}</p>
 							<p className="card-text">{text}</p>
 						</div>
