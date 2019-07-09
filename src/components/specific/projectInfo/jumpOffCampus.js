@@ -10,7 +10,7 @@ import paymentConfirmation from '../../../img/jumpOffCampus/paymentConfirmation.
 import googleAnalytics from '../../../img/jumpOffCampus/googleAnalytics.png'
 
 const title = "JumpOffCampus Inc."
-const techListArr = ["Ruby", "Rails", "PostgreSQL", "Haml", "RSpec", "FactoryBot", "Husky", "Stripe","Twilio", "Geocoder","Google Analytics", "MixPanel", "Ahoy", "Uploadcare", "Devise", "cancancan"];
+const techListArr = ["Ruby", "Rails", "PostgreSQL", "Haml", "RSpec", "FactoryBot", "Husky", "Stripe","Twilio", "Geocoder","Google Analytics", "MixPanel", "Ahoy", "Uploadcare", "Devise", "cancancan", "Faker"];
 const desListArr =[
 	{title: "CLIENT REQUEST:", des: "Rebuild everything from backend to frontend for existing Rails 2 app to Rails 5 app. Client wants app to be compatible with newer libraries like React."},
 	{title: "BUSINESS:", des: "Connect landlords and students for subleasing rooms."},
@@ -32,6 +32,7 @@ const subListObj = {
 	  title: "TASK:",
 		subListArr: [
 			"Learned Ruby and Rails for this company project.",
+			"Used Faker to create test seeding data.",
 			"Recreated backend models and their respective migration files, schemas and PostgreSQL database.", 
 			"Recreated frontend routes, forms and Haml templates for users to interact.",
 			"Designed tests on controller routes and models and put continuous inplace to manage growing codebase.",

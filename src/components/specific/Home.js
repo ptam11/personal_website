@@ -6,6 +6,7 @@ import Timeline from './Timeline'
 import ProjectOverview from './ProjectOverview';
 import Footer from '../common/Footer';
 
+
 class Home extends Component {
 	render() {
 		return (

@@ -5,10 +5,6 @@
   background-size: cover ;
   background-position: center;
 }
-.Cover-content {
-  height: 100%;
-  color: var(--yellow);
-}
 @media (max-width: 575.9px) {
   .Cover-text {
     height: 20rem;
@@ -27,19 +23,24 @@
     font-size: 8rem;
   }
 }
-.Cover-text {
-  display: inline-block;
+.Cover-content {
+  height: 100%;
+  color: var(--yellow);
   position: relative;
 }
-
-
+.Cover-text {
+  /* position: relative; */
+}
+.Cover-text-words{
+  /* position: relative; */
+}
 .Cover-text-words h5{
   color: white;
 }
 .Cover-text-bg {
   background-color: var(--electric-blue-1);
   opacity: 0.3;
-  height: 100%;
+  height: 50%;
   width: 100%;
   position: absolute;
 }
