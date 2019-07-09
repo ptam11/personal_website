@@ -32,7 +32,7 @@
 .Cover-text-bg {
   background-color: var(--electric-blue-1);
   opacity: 0.3;
-  height: 50%;
+  height: 100%;
   width: 100%;
   position: absolute;
 }
