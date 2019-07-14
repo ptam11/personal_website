@@ -18,7 +18,7 @@ class Home extends Component {
   componentDidMount() {
     this.interval = setTimeout(() => {
 			this.setState({loading: false});        
-    }, 2000);
+    }, 2500);
   }
 	render() {
 		const {loading} = this.state;
@@ -28,20 +28,21 @@ class Home extends Component {
 				<ReactLoading type="spinningBubbles" color={e5} height={'10%'} width={'10%'} className="mt-auto mb-auto"/>
 			</div>
 		);
+		const content = (				
+			<div className='Home ml-0 mr-0 p-0'data-spy="scroll" data-target="#NavBar" data-offset="0">
+				<Cover />
+				<About className="mb-5"/>
+				<Timeline/>
+				<ProjectOverview />
+				<Contact className="mb-5"/>
+				<Footer />
+			</div>
+		)
 
 		if(loading) {
 			homeBody = load;
 		} else {
-			homeBody = (				
-				<div className='Home ml-0 mr-0 p-0'data-spy="scroll" data-target="#NavBar" data-offset="0">
-					<Cover />
-					<About className="mb-5"/>
-					<Timeline/>
-					<ProjectOverview />
-					<Contact className="mb-5"/>
-					<Footer />
-				</div>
-			)
+			homeBody = content
 		}
 		return (
 			<div>
