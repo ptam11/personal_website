@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Cover.css';
-import NavBar from '../common/NavBar';
+// import NavBar from '../common/NavBar';
 
 class Cover extends Component {
 	render() {

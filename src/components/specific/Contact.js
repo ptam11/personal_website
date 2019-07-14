@@ -14,10 +14,15 @@ class Contact extends Component {
 					</div>
 					<div className='Contact-row row d-flex justify-content-center'>
 						<div className='Contact-col col-sm-6 d-flex justify-content-center align-content-start'>			
-							<div class="LI-profile-badge text-left"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="parcotam"><a class="LI-simple-link" href='https://www.linkedin.com/in/parcotam?trk=profile-badge'>Parco Tam</a></div>						</div>
+							<div className="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="parcotam">
+								<a className="LI-simple-link" href='https://www.linkedin.com/in/parcotam?trk=profile-badge'>
+									Parco Tam
+								</a>
+							</div>
+						</div>
 					</div>
-				</div>
-      </div>
+      	</div>
+			</div>
 		);
 	}
 }

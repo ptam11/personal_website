@@ -3,7 +3,7 @@
   width: 100vw;
 }
 .ProjectDetail-proj-title {
-  color: #00CCC0;
+  color: var(--green);
   font-size: 3rem;
 }
 .ProjectDetail-tech-list {

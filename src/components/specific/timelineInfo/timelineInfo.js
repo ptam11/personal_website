@@ -4,7 +4,7 @@ import bloomberg from '../../../img/timeline/bloomberg.jpg'
 import cfa from '../../../img/timeline/cfa.png'
 import clientSeminar from '../../../img/timeline/clientSeminar.jpg'
 import generalAssembly1 from '../../../img/timeline/generalAssembly1.jpg'
-import generalAssembly2 from '../../../img/timeline/generalAssembly2.jpg'
+// import generalAssembly2 from '../../../img/timeline/generalAssembly2.jpg'
 import sanFrancisco from '../../../img/timeline/sanFrancisco.jpg'
 import vendorTrip from '../../../img/timeline/vendorTrip.jpg'
 

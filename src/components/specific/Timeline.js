@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './Timeline.css';
 import HorizontalTimeline from 'react-horizontal-timeline'
 import SectionHeader from './SectionHeader'
-import babson from '../../img/timeline/babson.jpg'
 import timelineInfo from './timelineInfo/timelineInfo'
 
 const VALUES = timelineInfo.map((obj) => obj.date);
@@ -13,7 +12,6 @@ class Timeline extends Component {
   state = { value: 0, previous: 0 };
   componentDidMount() {
     this.interval = setInterval(() => {
-      // console.log(this.state.number, this.props.counter)
       if (this.state.value + 1 >= VALUES.length) {
         this.setState({value: 0, previous: this.state.value});        
       } else {
@@ -26,7 +24,8 @@ class Timeline extends Component {
     clearInterval(this.interval);
   }
   render() {
-    const {date, src, title, text} = timelineInfo[this.state.value]
+    // const {date, src, title, text} = timelineInfo[this.state.value]
+    const {src, title, text} = timelineInfo[this.state.value]
     return (
       <div className='Timeline' id="timeline">
         {/* Bounding box for the Timeline */}
