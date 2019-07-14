@@ -5,9 +5,9 @@ import NavBar from '../common/NavBar';
 class Cover extends Component {
 	render() {
 		return (
-			<div className='Cover'>
+			<div className='Cover' id="cover">
 				<div className='Cover-text-bg'></div>
-				<NavBar/>
+				{/* <NavBar/> */}
 				<div className='Cover-content d-flex justify-content-center align-items-center'>
 					<div className='Cover-text border-rounded'>
 						<div className='Cover-text-words'>

@@ -1,15 +1,17 @@
 .NavBar {
   height: 10vh;
   text-decoration: none;
-  /* background-color: transparent; */
 }
 
-.active{
+.navbar-toggler-icon{
   color: var(--yellow);
 }
 
-.nav-link {
+.nav-link, .dropdown-item, .dropdown-menu {
   color: white;
+  /* background-color: var(--electric-blue-1); */
+  background-color: black;
+  max-width: 25vw;
 }
 
 .navbar-brand {
@@ -20,4 +22,8 @@
 .NavBar-logo {
   color: var(--electric-blue-5);
   height: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: var(--electric-blue-5);
 }

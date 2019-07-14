@@ -10,25 +10,11 @@ import gaDataScience from './projectInfo/gaDataScience'
 class ProjectOverview extends Component {
 	render() {
 		return (
-			<div className='ProjectOverview d-flex flex-column justify-content-spread align-items-spread' id="projects">
+			<div className='ProjectOverview d-flex flex-column justify-content-spread align-items-spread' id="projectOverview">
 				<SectionHeader title='P R O J E C T S'/>
 				< ProjectDetail projectObj={jumpOffCampus} id="jumpOffCampus"/>
 				< ProjectDetail projectObj={jobly} id="jobly"/>
 				< ProjectDetail projectObj={gaDataScience} id="gaDataScience"/>
-				{/* <div className='ProjectOverview-container container'>
-					<div className='ProjectOverview-row row'>
-						<div className='ProjectOverview-col col-lg-6 mb-5' align="center">
-							<div className='ProjectOverview-pic' style={{backgroundImage: `url(${jumpOffCampusHome})`}}/>
-						</div>
-						<div className='ProjectOverview-col col-lg-6 mb-5' align="center">
-							<div className='ProjectOverview-pic' style={{backgroundImage: `url(${jumpOffCampusHome})`}}/>
-						</div>
-						<div className='ProjectOverview-col col-lg-6 mb-5' align="center">
-							<div className='ProjectOverview-pic' style={{backgroundImage: `url(${jumpOffCampusHome})`}}/>
-						</div> */}
-
-					{/* </div>
-				</div> */}
       </div>
 		);
 	}

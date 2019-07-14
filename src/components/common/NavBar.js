@@ -6,27 +6,24 @@ import logo from '../../img/logo_word.png'
 class NavBar extends Component {
 	render() {
 		return (
-			<nav className="NavBar navbar navbar-expand-sm">
-				<img src={logo} className="NavBar-logo img-fluid navbar-brand" alt="logo"></img>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<nav className="NavBar navbar navbar-dark navbar-expand-md fixed-top" id="NavBar">
+				
+				<a class="navbar-brand" href="#cover">
+					<img src={logo} className="NavBar-logo img-fluid navbar-brand" alt="logo"></img>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
     			<span class="navbar-toggler-icon"></span>
   			</button>
-				<div className="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul className="navbar-nav ml-auto flex-row">
+				<div className="collapse navbar-collapse text-right" id="navbarSupportedContent">
+					<ul className="navbar-nav ml-auto text-left">
 						<li className="nav-item">
-							<a className="nav-link" href="#about">
-								ABOUT ME
-							</a>
+							<a className="nav-link " href="#about"> ABOUT ME </a>
 						</li>
-						<li><b>|</b></li>
 						<li className="nav-item">
-							<a className="nav-link" href="#timeline">
-								THE JOURNEY
-							</a>
+							<a className="nav-link" href="#timeline"> THE JOURNEY </a>
 						</li>	
-						<li><b>|</b></li>
-						<li class="nav-item dropdown">
-        			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<li className="nav-item dropdown">
+        			<a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
           			PROJECTS
         			</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -36,11 +33,8 @@ class NavBar extends Component {
 								<a class="dropdown-item" href="#gaDataScience">HK IPO Data Science</a>
 							</div>
 						</li>
-						<li><b>|</b></li>
 						<li className="nav-item">
-							<a className="nav-link" href="#contact">
-								CONTACT ME
-							</a>
+							<a className="nav-link" href="#contact">CONTACT ME </a>
 						</li>
 					</ul>
 				</div>

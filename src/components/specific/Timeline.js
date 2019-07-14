@@ -19,7 +19,7 @@ class Timeline extends Component {
       } else {
         this.setState({value: this.state.value + 1, previous: this.state.value});        
       }
-    }, 3000);
+    }, 3800);
   }
   
   componentWillUnmount() {
