@@ -42,5 +42,4 @@
 }
 .card-title {
   color: var(--green);
-  border-bottom: 0.01rem solid var(--red);
 }
