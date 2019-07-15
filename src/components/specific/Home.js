@@ -18,7 +18,7 @@ class Home extends Component {
   componentDidMount() {
     this.interval = setTimeout(() => {
 			this.setState({loading: false});        
-    }, 2500);
+    }, 3000);
   }
 	render() {
 		const {loading} = this.state;
