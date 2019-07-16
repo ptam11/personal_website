@@ -8,7 +8,7 @@ import editProfile from '../../../img/jobly/editProfile.png'
 
 
 const title = "Jobly"
-const techListArr = ["React", "Redux", "Express", "Jest", "SuperTest", "Enzyme", "PostgreSQL", "WebSockets", "JWTs", "JSONschema", "lodash" ];
+const techListArr = ["React", "Redux", "Express", "Jest", "SuperTest", "Enzyme", "PostgreSQL", "WebSockets", "JWTs", "JSONschema", "Lodash" ];
 const desListArr =[
 	{title: "GOAL:", des: "Create a LinkedIn like application. Deploy both backend and frontend."},
 	{title: "BUSINESS:", des: "Connect companies and job seekers."},

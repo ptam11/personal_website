@@ -5,7 +5,7 @@ import ProjectDetail from './ProjectDetail';
 import jumpOffCampus from './projectInfo/jumpOffCampus'
 import jobly from './projectInfo/jobly'
 import gaDataScience from './projectInfo/gaDataScience'
-
+import warbler from './projectInfo/warbler'
 
 class ProjectOverview extends Component {
 	render() {
@@ -14,6 +14,7 @@ class ProjectOverview extends Component {
 				<SectionHeader title='P R O J E C T S'/>
 				< ProjectDetail projectObj={jumpOffCampus} id="jumpOffCampus"/>
 				< ProjectDetail projectObj={jobly} id="jobly"/>
+				< ProjectDetail projectObj={warbler} id="warbler"/>
 				< ProjectDetail projectObj={gaDataScience} id="gaDataScience"/>
       </div>
 		);

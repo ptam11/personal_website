@@ -29,6 +29,7 @@ class NavBar extends Component {
 								<a className="dropdown-item" href="#jumpOffCampus">JumpOffCampus Inc.</a>
 								<div className="dropdown-divider"></div>
 								<a className="dropdown-item" href="#jobly">Jobly (LinkedIn)</a>
+								<a className="dropdown-item" href="#warbler">Warbler (Twitter)</a>
 								<a className="dropdown-item" href="#gaDataScience">HK IPO Data Science</a>
 							</div>
 						</li>
