@@ -7,6 +7,7 @@ import generalAssembly1 from '../../../img/timeline/generalAssembly1.jpg'
 // import generalAssembly2 from '../../../img/timeline/generalAssembly2.jpg'
 import sanFrancisco from '../../../img/timeline/sanFrancisco.jpg'
 import vendorTrip from '../../../img/timeline/vendorTrip.jpg'
+import rithmGrad from '../../../img/timeline/rithmGrad.jpg'
 
 const timelineInfo = [
   { date: 'May-2011', src: babson2, title: "Bachelors Degree @Babson College", text: "Concentration: Computational Finance & Accounting Cum Laude"},
@@ -17,6 +18,7 @@ const timelineInfo = [
   { date: 'Jan-2017', src: clientSeminar, title: "Coordinated APAC Sales Campaign", text: "Hosted Client Seminars with Sales Team"},
   { date: 'Dec-2017', src: generalAssembly1, title: "General Assembly Data Science Course", text: "Sponsored by Bloomberg"},
   { date: 'Mar-2019', src: sanFrancisco, title: "Began Full Time Immersive Course @Rithm School", text: "Moved to San Francisco"},
+  { date: 'Jul-2019', src: rithmGrad, title: "Graduated @Rithm School", text: "Road to Becoming an Software Engineer"},
 ];
 
 
