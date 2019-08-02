@@ -12,8 +12,9 @@ class Contact extends Component {
 					<div className='Contact-row row d-flex justify-content-center'>
 						<p><b>ptam1556@gmail.com </b> </p>
 					</div>
-					<div className='Contact-row row d-flex justify-content-center'>
-						<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="parcotam"><a class="LI-simple-link" href='https://www.linkedin.com/in/parcotam?trk=profile-badge'>Parco Tam</a></div>					</div>
+						<div className='Contact-row row d-flex justify-content-center'>
+							<div className="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="parcotam"><a className="LI-simple-link" href='https://www.linkedin.com/in/parcotam?trk=profile-badge'>Parco Tam, CFA</a></div>
+						</div>
       	</div>
 			</div>
 		);
