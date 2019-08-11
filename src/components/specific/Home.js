@@ -22,10 +22,10 @@ class Home extends Component {
   }
 	render() {
 		const {loading} = this.state;
-		let homeBody;
+		let loadScreen;
 		const load = (
-			<div className='Home ml-0 mr-0 p-0 d-flex h-100 justify-content-center align-content-center'>
-				<ReactLoading type="spinningBubbles" color={e5} height={'10%'} width={'10%'} className="mt-auto mb-auto"/>
+			<div className='Home ml-0 mr-0 p-0 d-flex justify-content-center align-content-center'>
+					<ReactLoading type="spinningBubbles" color={e5} height={'10%'} width={'10%'} className="mt-auto mb-auto"/>
 			</div>
 		);
 		const content = (				
@@ -40,14 +40,15 @@ class Home extends Component {
 		)
 
 		if(loading) {
-			homeBody = load;
+			loadScreen = load
 		} else {
-			homeBody = content
+			loadScreen = (<span />)
 		}
 		return (
 			<div>
 				<NavBar/>
-				{homeBody}
+				{loadScreen}
+				{content}
 			</div>
 		);
 	}
