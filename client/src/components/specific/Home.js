@@ -24,7 +24,7 @@ class Home extends Component {
 		const {loading} = this.state;
 		let loadScreen;
 		const load = (
-			<div className='Home ml-0 mr-0 p-0 d-flex justify-content-center align-content-center'>
+			<div className='Home ml-0 mr-0 p-0 h-100 d-flex justify-content-center align-content-center'>
 					<ReactLoading type="spinningBubbles" color={e5} height={'10%'} width={'10%'} className="mt-auto mb-auto"/>
 			</div>
 		);

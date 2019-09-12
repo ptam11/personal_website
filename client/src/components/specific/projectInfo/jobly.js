@@ -8,7 +8,7 @@ import editProfile from '../../../img/jobly/editProfile.png'
 
 
 const title = "Jobly"
-const techListArr = ["React", "Redux", "Express", "Jest", "SuperTest", "Enzyme", "PostgreSQL", "WebSockets", "JWTs", "JSONschema", "Lodash" ];
+const techListArr = ["React", "Redux", "Redux-Persist", "Redux-Thunk", "Express", "Jest", "SuperTest", "Enzyme", "PostgreSQL", "WebSockets", "JWTs", "JSONschema", "Lodash" ];
 const desListArr =[
 	{title: "GOAL:", des: "Create a LinkedIn like application. Deploy both backend and frontend."},
 	{title: "BUSINESS:", des: "Connect companies and job seekers."},
@@ -27,6 +27,7 @@ const subListObj = {
 	  title: "TASK:",
 		subListArr: [
 			"Created frontend using React and supported with Redux to manage React state.",
+			"Used Persist and Thunk for a seamless state experience and async requests respectively.",
 			"Coded using 'Test Driven Development' style (TDD).",
 			"Built Express backend models to service RESTful API to the frontend.",
 			"Structured PostgreSQL database to handle the interlinked relationships between the models.",
