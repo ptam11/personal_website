@@ -11,6 +11,7 @@ import rocAumVsPrecisionRecallCurve from '../../../img/gaDataScience/rocAumVsPre
 
 const title = "HK Public Offering Data Science Model"
 const techListArr = ["Python", "Scikit-Learn", "Plotly", "numPy", "pandas"];
+const websiteListArr =[];
 const desListArr =[
 	{title: "PROBLEM STATEMENT:", des: "China Tech giant, Tencent, had success in spinning-off its investments. Can I identify an IPO with a positive performance over a 30 day period (trade policy @Bloomberg)?"},
 	{title: "RESULTS:", des: "Can identify a gainer with 60% precision using fine tuned model."},
@@ -42,6 +43,6 @@ const subListObj = {
 		]
 	}
 
-const gaDataScience = {title, techListArr, desListArr, carouselListArr, subListObj};
+const gaDataScience = {title, techListArr, websiteListArr, desListArr, carouselListArr, subListObj}
 
 export default gaDataScience;

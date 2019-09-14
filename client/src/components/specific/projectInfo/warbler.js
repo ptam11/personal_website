@@ -8,6 +8,10 @@ import signUp from '../../../img/warbler/signUp.png'
 
 const title = "Warbler"
 const techListArr = ["Python", "Flask", "SQLAlchemy", "Bcrypt", "WTForms", "Jinja", "PostgreSQL", "Unittest"];
+const websiteListArr =[
+	{type: "website", address: "https://warbler-parco.herokuapp.com/"},
+	{type: "github", address:  "https://github.com/ptam11/warbler"},
+];
 const desListArr =[
 	{title: "GOAL:", des: "Create a Twitter like application. "},
 	{title: "BUSINESS:", des: "Connect many followers to many followees. All users can post many messages that can be liked."},
@@ -32,6 +36,6 @@ const subListObj = {
 		]
 	}
 
-const warbler = {title, techListArr, desListArr, carouselListArr, subListObj}
+const warbler = {title, techListArr, websiteListArr, desListArr, carouselListArr, subListObj};
 
 export default warbler;

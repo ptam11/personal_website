@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './ProjectDetail.css';
 import DotList from './DotList'
+import WebList from './WebsiteList'
 import SubList from './SubList'
 import DescriptionList from './DescriptionList'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -10,13 +11,12 @@ import { Carousel } from 'react-responsive-carousel';
 class ProjectDetail extends Component {
 	render() {
 		const { projectObj, id } =  this.props;
-		const { title, carouselListArr, techListArr, desListArr, subListObj } = projectObj;
+		const { title, carouselListArr, techListArr, websiteListArr, desListArr, subListObj } = projectObj;
 		const carouselHtmlList = (carouselListArr.map((page, ind) => {
 			return (
 				<div key={ind}>
 					<p className="legend" style={{opacity: 0.7, fontSize: "2.5vh"}}>{page.des}</p>
-					<img src={page.src} alt={page.src}/>
-					
+					<img src={page.src} alt={page.src}/>	
 				</div>
 			)
 		}))
@@ -27,6 +27,7 @@ class ProjectDetail extends Component {
 						<div className="col-12"> 
 							<h3 className="ProjectDetail-proj-title">{title}</h3>
 							<div className="ProjectDetail-tech-list"><DotList listArr={techListArr} /></div>
+							<div className="ProjectDetail-web-list"><WebList listArr={websiteListArr} /></div>
 							<br/>
 							<div  className='ProjectDetail-carousel col-12 m-auto'>
 								<Carousel autoPlay={true} infiniteLoop={true} centerMode={false} width="100%" interval={3500}>

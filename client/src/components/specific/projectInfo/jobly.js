@@ -8,7 +8,11 @@ import editProfile from '../../../img/jobly/editProfile.png'
 
 
 const title = "Jobly"
-const techListArr = ["React", "Redux", "Redux-Persist", "Redux-Thunk", "Express", "Jest", "SuperTest", "Enzyme", "PostgreSQL", "WebSockets", "JWTs", "JSONschema", "Lodash" ];
+const techListArr = ["React", "Redux", "Redux-Persist", "Redux-Thunk", "Express", "Jest", "SuperTest", "Enzyme", "PostgreSQL", "WebSockets", "JWTs", "JSONschema", "Debounce" ];
+const websiteListArr =[
+	{type: "website", address: "https://jobly-parco-frontend.herokuapp.com"},
+	{type: "github", address: "https://github.com/ptam11/jobly_fullStack" },
+];
 const desListArr =[
 	{title: "GOAL:", des: "Create a LinkedIn like application. Deploy both backend and frontend."},
 	{title: "BUSINESS:", des: "Connect companies and job seekers."},
@@ -33,10 +37,10 @@ const subListObj = {
 			"Structured PostgreSQL database to handle the interlinked relationships between the models.",
 			"Implemented middleware in the backend using JWTs and BCrypt to check user authentication and authorizations.",
 			"Implemented frontend authentications on React state and controlled view restrictions.",
-			"Created a live search using lodash and debounce methodology."
+			"Created a live search using debounce."
 		]
 	}
 
-const jobly = {title, techListArr, desListArr, carouselListArr, subListObj}
+const jobly = {title, techListArr, websiteListArr, desListArr, carouselListArr, subListObj}
 
 export default jobly;

@@ -11,6 +11,9 @@ import googleAnalytics from '../../../img/jumpOffCampus/googleAnalytics.png'
 
 const title = "JumpOffCampus Inc."
 const techListArr = ["Ruby", "Rails", "PostgreSQL", "Haml", "RSpec", "FactoryBot", "Husky", "Stripe","Twilio", "Geocoder","Google Analytics", "MixPanel", "Ahoy", "Uploadcare", "Devise", "cancancan", "Faker"];
+const websiteListArr =[
+	{type: "website", address: "https://www.jumpoffcampus.com"},
+];
 const desListArr =[
 	{title: "CLIENT REQUEST:", des: "Rebuild everything from backend to frontend for existing Rails 2 app to Rails 5 app. Client wants app to be compatible with newer libraries like React."},
 	{title: "BUSINESS:", des: "Connect landlords and students for subleasing rooms."},
@@ -40,6 +43,6 @@ const subListObj = {
 		]
 	}
 
-const jumpOffCampus = {title, techListArr, desListArr, carouselListArr, subListObj};
+const jumpOffCampus = {title, techListArr, websiteListArr, desListArr, carouselListArr, subListObj};
 
 export default jumpOffCampus;
