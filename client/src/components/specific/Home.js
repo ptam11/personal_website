@@ -8,45 +8,46 @@ import Contact from './Contact';
 import Footer from '../common/Footer';
 import NavBar from '../common/NavBar';
 import ReactLoading from 'react-loading';
+import Loading from '../common/Loading'
 
 const e5 = getComputedStyle(document.documentElement).getPropertyValue('--electric-blue-5').slice(-7)
 
 
 
 class Home extends Component {
-	state = { loading: true};
-  componentDidMount() {
-    this.interval = setTimeout(() => {
-			this.setState({loading: false});        
-    }, 3000);
-  }
+	state = { loading: true };
+	componentDidMount() {
+		this.interval = setTimeout(() => {
+			this.setState({ loading: false });
+		}, 6000);
+	}
 	render() {
-		const {loading} = this.state;
+		const { loading } = this.state;
 		let loadScreen;
 		const load = (
-			<div className='Home ml-0 mr-0 p-0 h-100 d-flex justify-content-center align-content-center'>
-					<ReactLoading type="spinningBubbles" color={e5} height={'10%'} width={'10%'} className="mt-auto mb-auto"/>
+			<div>
+				<Loading />
 			</div>
 		);
-		const content = (				
-			<div className='Home ml-0 mr-0 p-0'data-spy="scroll" data-target="#NavBar" data-offset="0">
+		const content = (
+			<div className='Home ml-0 mr-0 p-0' data-spy="scroll" data-target="#NavBar" data-offset="0">
 				<Cover />
-				<About className="mb-5"/>
-				<Timeline/>
+				<About className="mb-5" />
+				<Timeline />
 				<ProjectOverview />
-				<Contact className="mb-5"/>
+				<Contact className="mb-5" />
 				<Footer />
 			</div>
 		)
 
-		if(loading) {
+		if (loading) {
 			loadScreen = load
 		} else {
 			loadScreen = (<span />)
 		}
 		return (
 			<div>
-				<NavBar/>
+				<NavBar />
 				{loadScreen}
 				{content}
 			</div>

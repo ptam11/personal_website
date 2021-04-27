@@ -1,0 +1,54 @@
+.Loading {
+  height: 100vh;
+  width: 100%;
+}
+.Loading svg {
+  height: 100%;
+}
+
+.Loading svg path:nth-child(1) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  fill: transparent;
+  animation-name: fill-blue;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+
+}
+.Loading svg path:nth-child(2) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  fill: transparent;
+  animation-name: fill-blue;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 4.5s;
+  animation-delay: 0.5s;
+  animation-timing-function: linear;
+}
+.Loading svg path:nth-child(3) {
+  stroke-dasharray: 100%;
+  stroke-dashoffset: 100%;
+  fill: transparent;
+  animation-name: fill-white;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+}
+@keyframes fill-blue {
+  to {
+    stroke-dashoffset: 0%;
+    fill: var(--electric-blue-5);
+  }
+}
+@keyframes fill-white {
+  to {
+    stroke-dashoffset: 0;
+    fill: white;
+  }
+}

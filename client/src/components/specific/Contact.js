@@ -58,7 +58,7 @@ class Contact extends Component {
         <div className="Contact-container container">
           <SectionHeader title="C O N T A C T" />
           <div className="Contact-row row d-flex justify-content-center">
-            <div
+            {/* <div
               className="LI-profile-badge"
               data-version="v1"
               data-size="large"
@@ -67,10 +67,12 @@ class Contact extends Component {
               data-theme="light"
               data-vanity="parcotam"
             >
-              <a className="LI-simple-link" href="https://www.linkedin.com/in/parcotam?trk=profile-badge">
+              <a className="LI-simple-link" href="">
+                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="parcotam" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/parcotam?trk=profile-badge">Parco Tam, CFA</a></div>
+              
                 Parco Tam, CFA
               </a>
-            </div>
+            </div> */}
           </div>
           <br />
           <div className="Contact-row row d-flex justify-content-center">
