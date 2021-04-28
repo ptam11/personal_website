@@ -80,7 +80,7 @@ class Contact extends Component {
               <b>ptam1556@gmail.com </b>{' '}
             </p>
           </div>
-          <div className="Contact-row row d-flex justify-content-center">
+          {/* <div className="Contact-row row d-flex justify-content-center">
             <form className="form-group">
               <div className="input-group">
                 <div className="input-group-prepend">
@@ -104,7 +104,7 @@ class Contact extends Component {
               <small className="text-danger">{call.callError}</small>
               <br />
             </form>
-          </div>
+          </div> */}
           {/* <form className="form-group">
 						<div className="input-group">
 							<div className="input-group-prepend">
