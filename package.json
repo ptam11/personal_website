@@ -8,17 +8,17 @@
     "@fortawesome/free-regular-svg-icons": "^5.9.0",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@fortawesome/react-fontawesome": "^0.1.4",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "cors": "^2.8.5",
     "dotenv": "^8.1.0",
     "http-proxy-middleware": "^0.19.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-horizontal-timeline": "^1.5.3",
+    "react-horizontal-timeline": "^1.4.0",
     "react-loading": "^2.0.3",
     "react-responsive-carousel": "^3.1.49",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1"
+    "react-scripts": "^4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
